@@ -50,7 +50,7 @@ ul {
     margin-top: 0;
 }
 
-.hero-h2, a, .banner-h2 {
+.hero-h2, a, .banner-h2, .copyright {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: lighter;
@@ -170,4 +170,11 @@ h1, h2 {
     flex-direction: column;
     align-items: flex-start;
     gap: 5px;
+}
+
+.footer {
+    display: flex;
+    padding: 16px;
+    background-color: #1F2937;
+    justify-content: center;
 }
